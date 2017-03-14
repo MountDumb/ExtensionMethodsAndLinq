@@ -65,7 +65,7 @@ namespace ExtensionMethodsAndLinq
 
         public static IEnumerable<T> DoStuff<T>(this IEnumerable<T> query, Func<T, IEnumerable<T>> ienum)
         {
-            
+            //Example 
             //return query.Where(v => v.EffectiveFrom < DateTime.Now &&
             //                   v.EffectiveTo > DateTime.Now);
         }
